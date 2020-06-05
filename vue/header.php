@@ -41,8 +41,8 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="index.php?action=avancement" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Avancement de l’atlas</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#sectionAvancementCartesGlobales">Cartes globales</a>
-                                <a class="dropdown-item" href="#sectionAvancementCartesEspeces">Cartes à l'espèce</a>
+                                <a class="dropdown-item" href="index.php?action=avancement#sectionAvancementCartesGlobales">Cartes globales</a>
+                                <a class="dropdown-item" href="index.php?action=avancement#sectionAvancementCartesEspeces">Cartes à l'espèce</a>
                             </div>
                         </li>
                         <li class="nav-item">
