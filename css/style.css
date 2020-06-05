@@ -1,0 +1,160 @@
+/* Couleurs */
+/* Marges */
+/* ------------------------------------------------------------------- GRAND ECRAN ----------------------------------------------------------- */
+body {
+  background-image: url("../images/background_gretia.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+body #container {
+  width: 95%;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  font-size: 1em;
+}
+body #container .headerNav {
+  width: 89%;
+  background-color: white;
+  text-align: center;
+  padding: auto;
+}
+body #container .headerNav #header h1 {
+  color: #C84B52;
+  vertical-align: middle;
+  margin: auto;
+}
+body #container .headerNav #header img {
+  max-width: 100%;
+}
+body #container .headerNav #nav {
+  margin-top: -19px;
+}
+body #container .headerNav #nav .navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+body #container .headerNav #nav .navbar-nav .nav-item {
+  text-align: center;
+}
+
+/* ------------------------------------------------------------------- ECRAN MOYEN (max-width: 992px) ----------------------------------------------------------- */
+@media all and (max-width: 992px) {
+  body #container h1 {
+    font-size: 2.1em;
+  }
+  body #container .navbar-toggler {
+    margin-top: 10px;
+  }
+}
+/* ------------------------------------------------------------------- ECRAN PETIT (max-width: 768px) ----------------------------------------------------------- */
+@media all and (max-width: 768px) {
+  body #container h1 {
+    font-size: 1.4em;
+  }
+}
+/* ------------------------------------------------------------------- ECRAN TRES PETIT (max-width: 575px) ----------------------------------------------------------- */
+@media all and (max-width: 575px) {
+  body #container {
+    margin-left: 7%;
+  }
+  body #container #header {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  body #container #header a {
+    width: 20%;
+    min-width: 100px;
+  }
+  body #container #header h1 {
+    padding-left: 1px;
+    padding-right: 40px;
+    font-size: 1em;
+  }
+}
+/* ------------------------------------------------------------------- GRAND ECRAN ----------------------------------------------------------- */
+section {
+  padding-top: 202px;
+  width: 90%;
+  margin-left: 3.5%;
+  margin-right: auto;
+  text-align: justify;
+  margin-bottom: 4%;
+}
+section h3 {
+  color: #C84B52;
+  margin-bottom: 20px;
+}
+section h4 {
+  color: #FE642E;
+  margin-bottom: 20px;
+  margin-left: 2%;
+}
+section h5 {
+  color: #C84B52;
+  margin-bottom: 20px;
+  margin-left: 4%;
+}
+section .margeDiv {
+  margin-top: 40px;
+}
+section figure {
+  margin: 3% 0%;
+  text-align: center;
+}
+section figure .imageReduite {
+  min-width: 170px;
+  width: 40%;
+  border: solid #EEECEC 3px;
+}
+section figure figcaption {
+  margin-top: 2%;
+}
+section figure figcaption em {
+  font-size: 0.9em;
+}
+section table {
+  margin-top: 3%;
+}
+section table thead {
+  text-align: center;
+  background-color: #EEECEC;
+}
+section .retourHautDePage {
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+/* ------------------------------------------------------------------- ECRAN MOYEN (max-width: 992px) ----------------------------------------------------------- */
+@media all and (max-width: 992px) {
+  #sectionAccueil {
+    padding-top: 180px;
+  }
+}
+/* ------------------------------------------------------------------- ECRAN PETIT (max-width: 768px) ----------------------------------------------------------- */
+@media all and (max-width: 768px) {
+  #sectionAccueil {
+    padding-top: 132px;
+  }
+  #sectionAccueil h3 {
+    font-size: 1.1em;
+  }
+  #sectionAccueil a {
+    font-size: 0.8em;
+  }
+  #sectionAccueil p {
+    font-size: 0.8em;
+  }
+  #sectionAccueil li {
+    font-size: 0.8em;
+  }
+  #sectionAccueil table {
+    font-size: 0.8em;
+  }
+  #sectionAccueil figcaption {
+    font-size: 0.8em;
+  }
+}
+/* ------------------------------------------------------------------- ECRAN TRES PETIT (max-width: 575px) ----------------------------------------------------------- */
+
+/*# sourceMappingURL=style.css.map */

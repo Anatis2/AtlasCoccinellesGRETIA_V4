@@ -1,0 +1,111 @@
+
+/* ------------------------------------------------------------------- GRAND ECRAN ----------------------------------------------------------- */
+
+body {
+  background-image: url("../images/background_gretia.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  #container {
+    width: 95%;
+    margin-left: $margeGaucheGlobale;
+    margin-right: 3.5%;
+    font-size: 1em;
+    .headerNav {
+      width: 89%;
+      background-color: white;
+      text-align: center;
+      padding: auto;
+      #header {
+        h1 {
+          color: $rougeTitre;
+          vertical-align: middle;
+          margin: auto;
+        }
+        img {
+          max-width: 100%;
+        }
+      }
+      #nav {
+        margin-top: -19px;
+        .navbar-nav {
+          margin-left: auto;
+          margin-right: auto;
+          .nav-item {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------- ECRAN MOYEN (max-width: 992px) ----------------------------------------------------------- */
+
+@media all and (max-width: 992px) {
+  body {
+    #container {
+      h1 {
+        font-size: 2.1em;
+      }
+      .navbar-toggler {
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------- ECRAN PETIT (max-width: 768px) ----------------------------------------------------------- */
+
+@media all and (max-width: 768px) {
+  body {
+    #container {
+      h1 {
+        font-size: 1.4em;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------- ECRAN TRES PETIT (max-width: 575px) ----------------------------------------------------------- */
+
+@media all and (max-width: 575px){
+  body {
+    #container {
+      margin-left: 7%;
+      #header {
+        display: flex;
+        flex-wrap: nowrap;
+        a {
+          width: 20%;
+          min-width: 100px;
+        }
+        h1 {
+          padding-left: 1px;
+          padding-right: 40px;
+          font-size: 1em;
+        }
+      }
+    }
+  }
+}
