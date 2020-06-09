@@ -96,10 +96,12 @@
             </div>
         </section>
 
-        <section id="sectionAvancementCartesEspeces">
+        <section class="container" id="sectionAvancementCartesEspeces">
             <h3>Avancement de l'atlas (cartes à l'espèce)</h3>
 
                 <h4>Lambert93</h4>
+
+                <div class="row">
 
                 <?php
                     $ext_list = Array("jpg", "jpeg", "bmp", "gif", "png"); // Liste des extensions de photo 
@@ -115,15 +117,20 @@
                         if ($nom != "." && $nom != "..") {
                 ?>
 
-                    <figure>
-                        <a href="./images/Cartes/GrandOuest2020L93/<?php echo $nom; ?>" target="_blank"><img src="./images/Cartes/GrandOuest2020L93/<?php echo $nom; ?>" class="imageReduite" alt="<?php echo $nom; ?>"/></a>
-                        <figcaption><strong><?php echo $nom; ?></strong></figcaption>
-                    </figure>
+                <div class="col" style="margin-bottom: 60px;">
+                    <a href="./images/Cartes/GrandOuest2020L93/<?php echo $nom; ?>" target="_blank">
+                        <img src="./images/Cartes/GrandOuest2020L93/<?php echo $nom; ?>" style="min-width: 300px; width: 60%;" class="imageReduiteCol" alt="<?php echo $nom; ?>"/>
+                    </a>
+                    <figcaption><strong><?php echo $nom; ?></strong></figcaption>
+                </div>
+
 
                 <?php
                         }
                     }
                 ?>
+
+                </div>
 
                 <div class="margeDiv">
                     <a href="#" class="retourHautDePage">Retour en haut de page</a>
