@@ -1,5 +1,7 @@
 /* ------------------------------------------------------------------- GRAND ECRAN ----------------------------------------------------------- */
-
+.position-fixed {
+  z-index: 100;
+}
 section {
   padding-top: 202px;
   width: 90%;
@@ -15,6 +17,9 @@ section {
     color: $orangeCox;
     margin-bottom: 20px;
     margin-left: 2%;
+  }
+  .row {
+    z-index: 0;
   }
   h5 {
     color: $rougeTitre;

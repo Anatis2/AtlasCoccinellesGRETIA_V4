@@ -114,6 +114,8 @@
                     sort($listephotos); // Trie par ordre alphabétique 
                     // Et maintenant, on affiche. 
                     foreach($listephotos as $nom) { 
+                        $nbASuppr = 4;
+                        $nomSansExtension = substr($nom, 0, -$nbASuppr);
                         if ($nom != "." && $nom != "..") {
                 ?>
 
@@ -121,7 +123,7 @@
                     <a href="./images/Cartes/GrandOuest2020L93/<?php echo $nom; ?>" target="_blank">
                         <img src="./images/Cartes/GrandOuest2020L93/<?php echo $nom; ?>" style="min-width: 300px; width: 60%;" class="imageReduiteCol" alt="<?php echo $nom; ?>"/>
                     </a>
-                    <figcaption><strong><?php echo $nom; ?></strong></figcaption>
+                    <figcaption><strong><?php echo $nomSansExtension; ?></strong></figcaption>
                 </div>
 
 

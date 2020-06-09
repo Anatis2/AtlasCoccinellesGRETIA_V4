@@ -73,6 +73,10 @@ body #container .headerNav #nav .navbar-nav .nav-item {
   }
 }
 /* ------------------------------------------------------------------- GRAND ECRAN ----------------------------------------------------------- */
+.position-fixed {
+  z-index: 100;
+}
+
 section {
   padding-top: 202px;
   width: 90%;
@@ -89,6 +93,9 @@ section h4 {
   color: #FE642E;
   margin-bottom: 20px;
   margin-left: 2%;
+}
+section .row {
+  z-index: 0;
 }
 section h5 {
   color: #C84B52;
