@@ -83,7 +83,7 @@ section {
   margin-left: 3.5%;
   margin-right: auto;
   text-align: justify;
-  margin-bottom: 4%;
+  margin-bottom: 1%;
 }
 section h3 {
   color: #C84B52;
@@ -130,6 +130,10 @@ section table thead {
 section .retourHautDePage {
   margin-right: 0px;
   margin-left: auto;
+}
+
+#sectionAvancementCartesEspeces {
+  padding-top: 60px;
 }
 
 /* ------------------------------------------------------------------- ECRAN MOYEN (max-width: 992px) ----------------------------------------------------------- */
