@@ -14,7 +14,7 @@
 
     <div class="container-fluid" id="container">
 
-        <div class="position-fixed headerNav">
+        <div class="position-fixed headerNav" style="z-index: 100">
             <header class="row" id="header">
                 <a class="col-sm-2 col-md-2 col-lg-2" href="http://www.gretia.org/" target="_blank" title="Aller sur le site du GRETIA"><img class="logoGretia" src="images/logo_gretia_reduit2.jpg" alt="logo du GRETIA"/></a>
                 <h1 class="col-sm-10 col-md-10 col-lg-10" id="headerH1">Atlas des coccinelles du grand ouest</h1>

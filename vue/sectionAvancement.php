@@ -2,25 +2,38 @@
             <h3>Avancement de l'atlas (cartes globales)</h3>
 
             <div class="margeDiv avancementGrandOuest">
-                <h4>Sur l'ensemble du Grand Ouest</h4>
-
                 <p>
-                    Voici la carte du nombre d'espèces connues par maille de 10X10 km début 2018 sur l'ensemble de notre zone de prospection.<br/>
-                    Vous pouvez cliquer sur la carte pour l'aggrandir.
+                    Cartes du nombre d'espèces connues par maille en mai 2020 sur l'ensemble du Grand Ouest (cliquez sur les cartes pour les aggrandir).
                 </p>
 
-                <figure>
-                    <a href="./images/Cartes/NbEspecesMaillesGrandOuest2018Reduit.jpg" target="_blank" title="Cliquez pour agrandir"><img src="./images/Cartes/NbEspecesMaillesGrandOuest2018Reduit.jpg" class="imageReduite" alt="EspecesMaillesGrandOuest"/></a>
-                    <figcaption><strong>Nombre d'espèces connues par maille sur le Grand Ouest</strong></figcaption>
-                </figure>
+                <div class="row">
+                    <div class="col">
+                        <figure>
+                            <a href="./images/Cartes/nbespecesmaillesgrandouest2020L93.jpeg" target="_blank" title="Cliquez pour agrandir">
+                                <img src="./images/Cartes/nbespecesmaillesgrandouest2020L93Reduit.jpeg" class="imageReduite" alt="EspecesMaillesGrandOuest"/>
+                            </a>
+                            <figcaption><strong>Nombre d'espèces connues par maille (L93) sur le Grand Ouest</strong></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col">
+                        <figure>
+                            <a href="./images/Cartes/nbespecesmaillesgrandouest2020UTM.jpeg" target="_blank" title="Cliquez pour agrandir">
+                                <img src="./images/Cartes/nbespecesmaillesgrandouest2020UTMReduit.jpeg" class="imageReduite" alt="EspecesMaillesGrandOuest"/>
+                            </a>
+                            <figcaption><strong>Nombre d'espèces connues par maille (UTM) sur le Grand Ouest</strong></figcaption>
+                        </figure>
+                    </div>
+                    
+                </div>
+
+                
             </div>
 
             <div class="margeDiv avancementNormandie">
                 <h4>En Normandie</h4>
 
-                <p>
-                    Afin de vous aider dans vos prospections, voici une carte de la Basse-Normandie, délimitée par mailles de 10X10 km.
-                </p>
+                <p>Nom des mailles UTM 10X10 km pour la Basse-Normandie.</p>
 
                 <figure>
                     <a href="./images/Cartes/NomsMaillesBN.png" target="_blank" title="Cliquez pour agrandir"><img src="./images/Cartes/NomsMaillesBN.png" class="imageReduite" alt="CartoMailles"/></a>
@@ -28,20 +41,9 @@
                 </figure>
 
                 <p>
-                    Et voici l'état d'avancement du nombre d'espèces connues par maille en 2018 :
-                </p>
-
-                <figure>
-                    <a href="./images/Cartes/NbEspecesMaillesBN2018.jpeg" target="_blank" title="Cliquez pour agrandir"><img src="./images/Cartes/NbEspecesMaillesBN2018.jpeg" class="imageReduite" alt="EspecesMaillesBN"/></a>
-                    <figcaption><strong>Nombre d'espèces connues par maille en Basse-Normandie</strong></figcaption>
-                </figure>
-
-                <p>
-                    Vous trouverez, <a href="Telechargements/CorrespondanceMaillesCommunesReduit.pdf" target="_blank">en cliquant ici</a>, un document qui effectue la correspondance entre les communes bas-normandes et le nom des mailles.
-                </p>
-
-                <p>
-                    Au sommaire :
+                    Pour télécharger le document effectuant la correspondance entre les communes bas-normandes et le nom des mailles, <a href="Telechargements/CorrespondanceMaillesCommunesReduit.pdf" target="_blank">cliquez ici !</a>
+                    <br/><br/>
+                    Vous y trouverez :
                     <ul>
                         <li>La carte bas-normande des mailles en 10*10km</li>
                         <li>La carte du nombre d'espèces par maille en Basse-Normandie</li>
@@ -50,50 +52,10 @@
                     </ul>
                 </p>
 
-                <p>
-                    Enfin, voici une cartographie en ligne du nombre d'espèces par maille en Basse-Normandie :
-                    <a href="https://qgiscloud.com/GRETIA/Coccinelles_BN/" target="_blank">Lien vers la cartographie en ligne</a>
-                </p>
-
-            </div>
-
-            <div class="margeDiv avancementBretagne">
-                <h4>En Bretagne</h4>
-
-                <p>
-                    Etat d'avancement du nombre d'espèces connues par maille dans le département des Côtes d'Armor (22) en 2018 :
-                </p>
-
-                <figure>
-                    <a href="./images/Cartes/NbEspecesMaillesCotesArmor2018.jpg" target="_blank"><img src="./images/Cartes/NbEspecesMaillesCotesArmor2018.jpg" class="imageReduite" alt="EspecesMailles22"/></a>
-                    <figcaption><strong>Nombre d'espèces connues par maille dans le département des Côtes d'Armor</strong></figcaption>
-                </figure>
-
-                <p>Pour plus d'informations sur les coccinelles des Côtes d'Armor (galerie photos, cartes de répartition par espèce, ...) :
-                    <a href="http://www.nature22.com/coccinelles22/accueil.html" target="_blank">lien vers le site "coccinelles 22"</a>.
-                </p>
-
-            </div>
-
-            <div class="margeDiv avancementPaysDeLoire">
-                <h4>En Pays de la Loire</h4>
-
-                <p>
-                    A venir...
-                </p>
-            </div>
-
-            <div class="margeDiv avancementAutres">
-                <h4>Autres</h4>
-
-                <p>
-                    A venir...
-                </p>
-            </div>
         </section>
 
 
-        <section id="sectionAvancementCartesEspeces">
+        <section id="sectionAvancementCartesEspeces" style="padding-top: 60px;">
             <h3>Avancement de l'atlas (cartes à l'espèce)</h3>
 
                 <div class="accordion" id="accordionExample">
@@ -122,17 +84,14 @@
                                 if ($nom != "." && $nom != "..") {
                         ?>
 
-                        <div class="col" style="margin-bottom: 60px; text-align: center;">
-                            <a href="./images/Cartes/GrandOuest2020L93/<?php echo $nom; ?>" target="_blank">
-                                <img src="./images/Cartes/GrandOuest2020L93/<?php echo $nom; ?>" style="min-width: 300px; width: 60%;" class="imageReduiteCol" alt="<?php echo $nom; ?>"/>
-                            </a>
-                            <p style="margin-top: 10px;"><strong><?php echo $nomSansExtension; ?></strong></p>
-                        </div>
-
+                            <div class="col" style="margin-bottom: 60px; text-align: center;">
+                                <a href="./images/Cartes/GrandOuest2020L93/<?php echo $nom; ?>" target="_blank">
+                                    <img src="./images/Cartes/GrandOuest2020L93/<?php echo $nom; ?>" style="min-width: 300px; width: 60%;" alt="<?php echo $nom; ?>"/>
+                                </a>
+                                <p style="margin-top: 10px;"><strong><?php echo $nomSansExtension; ?></strong></p>
+                            </div>
 
                         <?php
-                                } elseif ($nom = "") {
-                                    echo "Vous n'avez pas accès à cette page";
                                 }
                             }
                         ?>
@@ -167,7 +126,7 @@
 
                         <div class="col" style="margin-bottom: 60px; text-align: center;">
                             <a href="./images/Cartes/GrandOuest2020UTM/<?php echo $nom; ?>" target="_blank">
-                                <img src="./images/Cartes/GrandOuest2020UTM/<?php echo $nom; ?>" style="min-width: 300px; width: 60%;" class="imageReduiteCol" alt="<?php echo $nom; ?>"/>
+                                <img src="./images/Cartes/GrandOuest2020UTM/<?php echo $nom; ?>" style="min-width: 300px; width: 60%;" alt="<?php echo $nom; ?>"/>
                             </a>
                             <p style="margin-top: 10px;"><strong><?php echo $nomSansExtension; ?></strong></p>
                         </div>

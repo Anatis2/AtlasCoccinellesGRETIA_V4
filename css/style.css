@@ -73,10 +73,6 @@ body #container .headerNav #nav .navbar-nav .nav-item {
   }
 }
 /* ------------------------------------------------------------------- GRAND ECRAN ----------------------------------------------------------- */
-.position-fixed {
-  z-index: 100;
-}
-
 section {
   padding-top: 202px;
   width: 90%;
@@ -130,10 +126,6 @@ section table thead {
 section .retourHautDePage {
   margin-right: 0px;
   margin-left: auto;
-}
-
-#sectionAvancementCartesEspeces {
-  padding-top: 60px;
 }
 
 /* ------------------------------------------------------------------- ECRAN MOYEN (max-width: 992px) ----------------------------------------------------------- */
